@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calendar Widget</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gaegu&family=Henny+Penny&family=Joti+One&family=Kablammo&family=Kranky&family=Lacquer&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+  </head>
+<body>
+  <div class="calendar">
+    <div class="header">
+      <div class="year" id="year"></div>
+      <div class="controls">
+        <button id="prev">‹</button>
+        <h2 id="month"></h2>
+        <button id="next">›</button>
+      </div>
+    </div>
+
+    <div class="days">
+      <div>Mon</div><div>Tue</div><div>Wed</div>
+      <div>Thu</div><div>Fri</div><div>Sat</div><div>Sun</div>
+    </div>
+
+    <div class="dates" id="dates"></div>
+
+    <!-- <button class="today-btn" id="todayBtn">T</button> -->
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
